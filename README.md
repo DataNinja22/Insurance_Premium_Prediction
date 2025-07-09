@@ -48,17 +48,7 @@ A FastAPI-based machine learning application for predicting insurance premiums w
 
 ## 🚀 Quick Start
 
-### Option 1: Using Startup Scripts (Recommended)
-```bash
-# Linux/Mac
-chmod +x start.sh
-./start.sh
-
-# Windows
-start.bat
-```
-
-### Option 2: Manual Setup
+### Option 1: Manual Setup
 ```bash
 # Install dependencies
 pip install -r requirements.txt
@@ -70,7 +60,7 @@ cd src && python -m uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
 cd ui && streamlit run ui.py --server.port 8501 --server.address 0.0.0.0
 ```
 
-### Option 3: Using Main Entry Point
+### Option 2: Using Main Entry Point
 ```bash
 # Install dependencies
 pip install -r requirements.txt
