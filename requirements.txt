@@ -1,0 +1,23 @@
+# Core API Framework
+fastapi==0.115.12
+uvicorn==0.29.0
+pydantic==2.11.4
+python-multipart==0.0.6
+
+# Machine Learning & Data Processing
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==2.2.6
+joblib==1.5.1
+
+# Frontend
+streamlit==1.35.0
+requests==2.32.3
+
+# Development & Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Additional utilities
+python-dotenv==1.0.0
